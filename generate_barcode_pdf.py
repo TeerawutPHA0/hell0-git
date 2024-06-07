@@ -4,7 +4,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 from PIL import Image
 
-data = "PWHPK2406-01256"
+data = "AWHPK2406-01256"
 
 gs1_data = f"{data}"
 
