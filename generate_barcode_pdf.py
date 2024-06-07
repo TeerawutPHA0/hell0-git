@@ -5,7 +5,7 @@ from reportlab.lib.pagesizes import letter
 from PIL import Image
 
 data = "SWHPK2406-01234"
-data2 = "AASD056-05664"
+data2 = "SWHPK2406-01222"
 gs1_data = f"{data}"
 
 def generate_barcode(code, filename):
