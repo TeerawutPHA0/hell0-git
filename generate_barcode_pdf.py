@@ -23,6 +23,6 @@ def create_pdf_with_barcode(barcode_image, pdf_filename):
     c.showPage()
     c.save()
 
-# ตัวอย่างการใช้งาน
+# ตัวอย่างการใช้งาน barcode
 barcode_image = generate_barcode(gs1_data, "barcode") 
 create_pdf_with_barcode(barcode_image, "barcode.pdf") 
